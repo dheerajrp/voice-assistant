@@ -55,8 +55,6 @@ if __name__ == '__main__':
 
         if 'search for' in query:
             speak('Searching in wikipedia...')
-            # query = query.replace('wikipedia', '')
-            # results = wikipedia.summary(query, sentences=1)
             speak(f'According to wikipedia, {wikipedia.summary(query, sentences=2)}')
 
         elif 'open youtube' in query:
