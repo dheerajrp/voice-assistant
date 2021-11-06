@@ -2,3 +2,5 @@ pyttsx3
 wikipedia
 pyaudio
 SpeechRecognition
+
+pywhatkit
