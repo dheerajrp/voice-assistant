@@ -56,6 +56,8 @@ def listen():
 
 if __name__ == '__main__':
     greet()
+    greet_words = ['hi', 'hai', 'hello', 'morning', 'afternoon', 'evening', 'good morning',
+                   'good afternoon', 'good evening']
     while True:
         query = listen().lower()
 
@@ -75,12 +77,14 @@ if __name__ == '__main__':
         elif 'your name' in query:
             speak_print('I am Jarvis, your personal assistant.')
 
+        elif str(query) in greet_words:
+            speak_print('Hello. How may I help you today?')
+
         elif 'developed' in query:
             speak_print('I am developed with love by Dheeraj.')
 
         elif 'thanks' in query:
             speak_print('No problem.')
-
 
         elif 'news' in query:
             webbrowser.open("https://timesofindia.indiatimes.com/home/headlines")
