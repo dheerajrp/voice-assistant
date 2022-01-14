@@ -30,3 +30,11 @@ Here are some ways where Jarvis can be helpful.
   (Please provide the absolute path of the folder)
   
 9. Say **'exit'** to quit Jarvis
+
+# To Execute
+Make sure you have python installed in your system.
+
+1. Download the zip file
+2. Extract the zip file, and go into that folder and open cmd.
+3. Run the command ``pip install -r requirements.txt``
+4. Run the main file - ``python assistant.py``
